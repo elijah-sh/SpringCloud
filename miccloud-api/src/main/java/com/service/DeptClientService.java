@@ -14,7 +14,8 @@ import java.util.List;
  * @Date: 2018/9/29 21:28
  * @Description: 接口 + 注解
  */
-@FeignClient(value = "MICCLOUD-DEPT")
+// @FeignClient(value = "MICCLOUD-DEPT")
+@FeignClient(value = "MICCLOUD-DEPT",fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService
 {
     @RequestMapping(value = "/dept/add",method = RequestMethod.POST)
