@@ -10,6 +10,7 @@
         <module name="miccloud-api" />
         <module name="miccloud-config-3344" />
         <module name="miccloud-config-client-3355" />
+        <module name="miccloud-config-dept-client-8001" />
         <module name="miccloud-config-eureka-client-7001" />
         <module name="miccloud-consumer-dept-80" />
         <module name="miccloud-consumer-dept-feign" />

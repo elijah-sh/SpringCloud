@@ -23,6 +23,7 @@
         <module>miccloud-config-3344</module>
         <module>miccloud-config-client-3355</module>
         <module>miccloud-config-eureka-client-7001</module>
+        <module>miccloud-config-dept-client-8001</module>
     </modules>
     <packaging>pom</packaging>
 

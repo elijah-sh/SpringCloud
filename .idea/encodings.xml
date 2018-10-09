@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/miccloud-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-config-3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-config-client-3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miccloud-config-dept-client-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-config-eureka-client-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-consumer-dept-feign" charset="UTF-8" />

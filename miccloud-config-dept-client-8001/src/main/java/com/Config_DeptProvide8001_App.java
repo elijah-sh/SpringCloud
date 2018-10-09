@@ -2,17 +2,17 @@ package com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Auther: shuaihu.shen@hand-china.com
- * @Date: 2018/10/8 19:12
+ * @Date: 2018/9/26 18:54
  * @Description:
  */
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class ConfigClient_3355_StartSpringCloudApp {
+@SpringBootApplication
+@EnableEurekaClient   // 自动注册到Eureka服务中心
+public class Config_DeptProvide8001_App {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClient_3355_StartSpringCloudApp.class,args);
+        SpringApplication.run(Config_DeptProvide8001_App.class,args);
     }
 }
