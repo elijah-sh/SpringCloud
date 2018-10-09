@@ -1,0 +1,31 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: miccloud-zuul-gateway
+
+eureka:
+  client:    # 客户端注册到Eureka列表内
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com   # 自定义熔断机制的服务名称信息
+    prefer-ip-address: true     # 访问路径可以提升显示IP地址
+
+zuul:
+  prefix: /hand
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: miccloud-dept
+    mydept.path: /mydept/**
+
+
+
+
+
+info:
+  app.name: miccloud
+  company.name: HAND
+  build.artifactid: ${project.artifactId}
+  build.version: ${project.version}

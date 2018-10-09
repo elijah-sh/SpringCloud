@@ -8,14 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="miccloud-api" />
+        <module name="miccloud-config-3344" />
+        <module name="miccloud-config-client-3355" />
+        <module name="miccloud-config-eureka-client-7001" />
         <module name="miccloud-consumer-dept-80" />
         <module name="miccloud-consumer-dept-feign" />
+        <module name="miccloud-consumer-hystrix-dashboard" />
         <module name="miccloud-eureka-7001" />
         <module name="miccloud-eureka-7002" />
         <module name="miccloud-eureka-7003" />
         <module name="miccloud-provider-dept-8001" />
         <module name="miccloud-provider-dept-8002" />
         <module name="miccloud-provider-dept-8003" />
+        <module name="miccloud-provider-dept-hystrix-8001" />
+        <module name="miccloud-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
   </component>

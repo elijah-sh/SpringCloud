@@ -17,6 +17,12 @@
         <module>miccloud-provider-dept-8002</module>
         <module>miccloud-provider-dept-8003</module>
         <module>miccloud-consumer-dept-feign</module>
+        <module>miccloud-provider-dept-hystrix-8001</module>
+        <module>miccloud-consumer-hystrix-dashboard</module>
+        <module>miccloud-zuul-gateway-9527</module>
+        <module>miccloud-config-3344</module>
+        <module>miccloud-config-client-3355</module>
+        <module>miccloud-config-eureka-client-7001</module>
     </modules>
     <packaging>pom</packaging>
 

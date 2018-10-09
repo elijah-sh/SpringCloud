@@ -3,13 +3,19 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miccloud-config-3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miccloud-config-client-3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miccloud-config-eureka-client-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-consumer-dept-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miccloud-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-eureka-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-eureka-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-eureka-7003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-provider-dept-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-provider-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/miccloud-provider-dept-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miccloud-provider-dept-hystrix-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/miccloud-zuul-gateway-9527" charset="UTF-8" />
   </component>
 </project>
